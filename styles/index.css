@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --primaria: black;
+    --secundaria: grey;
+
+}
+
+header,main,footer{
+    width: 100%;
+}
+
+
+
+#banner{
+    width: 100%;
+    height: 500px;
+    /* background image - chama imagem */
+    background-image: url(../images/ImagensGeral/2\ banner.jpg);
+    /* background repeat- configura repetições */
+    background-repeat: no-repeat;
+    /* background size - regula o tamanho do background */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    color: white;
+    display: flex;
+    padding-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+
+nav{
+    background-image: url(../images/ImagensGeral/bcg.jpg);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 50px;
+}
+
+#logo{
+    width: 100px;
+}
+
+#logo img{
+    width: 100%;
+}
+#subMenu{
+    color: rgb(150, 150, 150);
+}
+
+#subMenu ul,#agenda ul{
+    margin: 50px;
+    display: flex;
+    padding-top: 15px;
+    text-align: center;
+    flex-direction: row;
+    align-items: start;
+    list-style: none;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+#subMenu li,#agenda li{
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+
+#subMenu img{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+
+.vermais{
+    margin: 10px;
+    padding: 10px 0px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 120px;
+}
+
+#agenda{
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.data{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px;
+}
+.box{
+    border: 1px solid black;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    width: 200px;
+}
+
